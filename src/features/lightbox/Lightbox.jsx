@@ -72,7 +72,9 @@ export default function Lightbox({ objects }) {
       </div>
       <div className="lb-text">
         <div className="font-bold">{data.title}</div>
-        <div className="font-italic">{data.artistPrefix} {data.artistDisplayName}</div>
+        <div className="font-italic">
+          {data.artistPrefix} {data.artistDisplayName}
+        </div>
         <div>{data.objectDate}</div>
         <div>department: {data.department}</div>
         <div>{data.medium}</div>
